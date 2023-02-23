@@ -414,7 +414,7 @@ HOOK_DELIVERER = 'path.to.tasks.deliver_hook_wrapper'
 
 ### tasks.py ###
 
-from celery.task import Task
+from celery import Task
 
 import json
 import requests
